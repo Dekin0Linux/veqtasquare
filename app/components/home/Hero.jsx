@@ -18,7 +18,7 @@ function Hero() {
             {/* <video class=" absolute inset-0 w-full h-full object-cover" src="/images/video1.mp4" autoplay loop muted></video> */}
             <video
                 className=" absolute inset-0 w-full h-full object-cover"
-                src="/images/video2.mp4"
+                src="/images/videos3.mp4"
                 ref={videoRef}
                 controls={false}
                 width="250"
@@ -26,12 +26,12 @@ function Hero() {
                 autoPlay={true}
                 muted>
             </video>
-            <div className="absolute inset-0  bg-gradient-to-t from-gray-900/90 to-gray-900/70 "> </div>
+            <div className="absolute inset-0  bg-gradient-to-t from-gray-900/40 to-gray-900/70 "> </div>
             <div className="absolute inset-0  text-white container mx-auto text-center  z-30 overflow-hidden">
                 <Navbar />
                 <div className="flex flex-col items-center justify-center w-full h-full">
                     <div className="md:text-4xl lg:text-6xl leading-relaxed  font-bold w-[80%] relative text-transparent bg-gradient-to-b from-sky-500 to-blue-800 bg-clip-text">
-                        <p>Virtual Banking Made Easy</p>
+                        <p className='text-white'>Virtual Crypto Banking Made Easy</p>
                     </div>
                 <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button>
                 </div>

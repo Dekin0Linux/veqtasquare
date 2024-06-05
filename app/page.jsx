@@ -7,10 +7,12 @@ import Try from './components/home/Try'
 import Packages from './components/home/Packages'
 import Values from './components/home/Values'
 import Contact from './components/home/Contact'
+import Currency from './components/home/Currency'
 
 function page() {
   return (
-   <main>
+    <main>
+     <Currency/>
     <Hero/>
     <Partners/>
     <Getcard/>
