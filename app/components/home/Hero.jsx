@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect, useRef } from 'react'
-import TypeWriterEffect from 'react-typewriter-effect';
 import Navbar from './Navbar';
 
 function Hero() {
@@ -32,19 +31,8 @@ function Hero() {
                 <Navbar />
                 <div className="flex flex-col items-center justify-center w-full h-full">
                     <div className="md:text-4xl lg:text-6xl leading-relaxed  font-bold w-[80%] relative text-transparent bg-gradient-to-b from-sky-500 to-blue-800 bg-clip-text">
-                        <TypeWriterEffect
-                            startDelay={100}
-                            cursorColor="white"
-                            text="The Best Choice for Online Credit Card Payment."
-                            typeSpeed={100}
-                            textStyle={{
-                                fontWeight: 500,
-                                fontSize: '1.5em',
-                                textAlign: 'center',
-                            }}
-                        />
                     </div>
-                <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl ">Make A Purchase</button>
+                <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button>
                 </div>
             </div>
 
