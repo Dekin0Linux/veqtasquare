@@ -8,6 +8,8 @@ import Packages from './components/home/Packages'
 import Values from './components/home/Values'
 import Contact from './components/home/Contact'
 import Currency from './components/home/Currency'
+import Chart from './components/home/Chart'
+import CryptoChart from './components/home/Chart'
 
 function page() {
   return (
@@ -15,6 +17,7 @@ function page() {
      <Currency/>
     <Hero/>
     <Partners/>
+    <CryptoChart coinId={'ethereum'}/>
     <Getcard/>
     <Values/>
     <Packages/>

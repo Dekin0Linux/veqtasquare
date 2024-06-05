@@ -7,6 +7,12 @@ function Contact() {
                 <div className="flex-1">
                     <h3 clasName="text-6xl font-semibold ">Contact Us</h3>
                     <p className="text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem et aliquam veniam ducimus nobis. Dolorum quae ducimus molestias quos rerum!</p>
+                    <div>
+            <p className="mb-3">Feel free to reach out to us using the following contact information:</p>
+            <p className="mb-2"><strong>Email:</strong> info@example.com</p>
+            <p className="mb-2"><strong>Phone:</strong> +1234567890</p>
+            <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+          </div>
                 </div>
                 <div className="flex-1 bg-gray-100 p-5">
                     <form>

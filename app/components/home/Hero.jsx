@@ -31,7 +31,7 @@ function Hero() {
                 <Navbar />
                 <div className="flex flex-col items-center justify-center w-full h-full">
                     <div className="md:text-4xl lg:text-6xl leading-relaxed  font-bold w-[80%] relative text-transparent bg-gradient-to-b from-sky-500 to-blue-800 bg-clip-text">
-                        <p className='text-white'>Virtual Crypto Banking Made Easy</p>
+                        <p className='text-white'>Send, Buy or Sell crypto vs Cash all over the world with Flash Transfer</p>
                     </div>
                 <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button>
                 </div>

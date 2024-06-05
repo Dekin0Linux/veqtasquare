@@ -14,7 +14,6 @@ function Currency() {
           );
     
           if (data) {
-            console.log(data);
             setCoinData(data);
           }
         } catch (err) {
