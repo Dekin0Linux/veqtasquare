@@ -86,7 +86,7 @@ const CryptoChart = ({ coinId }) => {
 
   return (
     <div className=' grid md:grid-cols-3 grid-cols-1 container mx-auto gap-3 md:py-48 py-20 '>
-        <div className='flex-1 p-10 col-span-2 bg-white shadow rounded-md'>
+        <div className='md:flex-1 md:p-10 p-2 col-span-2 bg-white shadow rounded-md'>
             <p className='capitalize text-center text-4xl text-gray-500 md:font-semibold font-normal md:pb-10 pb-5'>FLASH Live Price</p>
             <p className='md:text-3xl font-semibold text-green-500'>$ {formatNumber(currentPrice)}</p>
             <Chart options={options} series={series} type="area" height={400} width={'100%'} />
