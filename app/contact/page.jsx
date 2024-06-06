@@ -97,7 +97,7 @@ function ContactPage() {
               <strong>Phone:</strong>+233 24 768 5717
             </p>
             <p>
-              <strong>Address:</strong> Address 348 East Lake Rd. East Lego.
+              <strong>Address:</strong> Address 348 East Lake Rd. East Legon.
               Accra - Ghana
             </p>
           </div>
