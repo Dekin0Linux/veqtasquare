@@ -1,7 +1,13 @@
 'use client'
 import React, { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic';
 import axios from 'axios';
-import Chart from 'react-apexcharts';
+// import Chart from 'react-apexcharts';
+
+
+
+// Dynamically import ApexCharts with no SSR
+const Chart = dynamic(() => import('react-apexcharts'), { ssr: false });
 
 const CryptoChart = ({ coinId }) => {
   const [series, setSeries] = useState([]);
