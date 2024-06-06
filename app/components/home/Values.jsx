@@ -2,7 +2,7 @@ import React from 'react'
 
 function Values() {
   return (
-    <div className="md:flex my-10 bg-red-100">
+    <div className="md:flex my-10 bg-gray-100">
       <div className="flex-1 ">
         <div className="md:px-32 p-5">
           <p className="text-lg font-light uppercase"></p>
