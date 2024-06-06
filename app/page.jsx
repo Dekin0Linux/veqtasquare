@@ -20,7 +20,7 @@ function page() {
     <CryptoChart coinId={'ethereum'}/>
     <Getcard/>
     <Values/>
-    <Packages/>
+    {/* <Packages/> */}
     <Try/ >
     <Contact/>
    </main>

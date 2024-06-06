@@ -81,7 +81,7 @@ const CryptoChart = ({ coinId }) => {
   return (
     <div className=' grid md:grid-cols-3 container mx-auto gap-3'>
         <div className='flex-1 p-10 col-span-2 bg-white shadow rounded-md'>
-            <p className='capitalize text-end'>{coinId}</p>
+            {/* <p className='capitalize text-end'>{coinId}</p> */}
             <p className='md:text-3xl font-semibold text-green-500'>$ {formatNumber(currentPrice)}</p>
             <Chart options={options} series={series} type="area" height={400} width={'100%'} />
         </div>

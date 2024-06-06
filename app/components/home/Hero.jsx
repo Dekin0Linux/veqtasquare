@@ -7,7 +7,7 @@ function Hero() {
 
     useEffect(() => {
         setTimeout(() => {
-            videoRef.current.play()
+            videoRef?.current?.play()
         }, 3000)
     }, []);
 
@@ -30,15 +30,16 @@ function Hero() {
             <div className="absolute inset-0  text-white container mx-auto text-center  z-30 overflow-hidden">
                 <Navbar />
                 <div className="flex flex-col items-center justify-center w-full h-full">
-                    <div className="md:text-4xl lg:text-6xl leading-relaxed  font-bold w-[80%] relative text-transparent bg-gradient-to-b from-sky-500 to-blue-800 bg-clip-text">
-                        <p className='text-white'>Send, Buy or Sell crypto vs Cash all over the world with Flash Transfer</p>
+                    <div className="md:text-4xl lg:text-6xl  font-bold w-[80%] relative text-transparent bg-gradient-to-b from-sky-500 to-blue-800 bg-clip-text">
+                        <p className='text-white leading-relaxed '>Send, Buy or Sell crypto vs Cash all over the world with Flash Transfer</p>
                     </div>
-                <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button>
+                {/* <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button> */}
+                        <small className='text-base text-white'>VeqtaSquare, offers a reliable Exchange services for your cryptocurrency vs cash or buy cryptocurrency with cash form our approved partners. You can also send your cryptocurrency vs fiat worldwide using a Binance account or using your no-custodial wallet ( Flash wallet, Metamask, Binance wallet, Trust wallet ,etc)</small>
                 </div>
             </div>
 
         </div>
     )
-}
+}   
 
 export default Hero
