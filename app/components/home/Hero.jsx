@@ -34,7 +34,7 @@ function Hero() {
                         <p className='text-white leading-relaxed '>Send, Buy or Sell crypto vs Cash all over the world with Flash Transfer</p>
                     </div>
                 {/* <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button> */}
-                        <p className='md:text-base text-xs text-white truncate'>VeqtaSquare, offers a reliable Exchange services for your cryptocurrency vs cash or buy cryptocurrency with cash from our approved partners.</p>
+                        <p className='md:text-base text-xs text-white '>VeqtaSquare, offers a reliable Exchange services for your cryptocurrency vs cash or buy cryptocurrency with cash from our approved partners.</p>
                 </div>
             </div>
 
