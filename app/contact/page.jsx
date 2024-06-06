@@ -1,6 +1,8 @@
+'use client'
 import React from "react";
 import Navbar from "../components/home/Navbar";
 import Image from "next/image";
+import Contact from "../components/home/Contact";
 
 function ContactPage() {
   return (
@@ -19,89 +21,9 @@ function ContactPage() {
           Contact Us
         </h1>
       </div>
-      <div className="container mx-auto p-6 py-48">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <h2 className="text-2xl font-semibold mb-3">Get in Touch</h2>
-            <p className="mb-3 py-5">
-              We'd love to hear from you. Fill out the form below to send us a
-              message.
-            </p>
-            <form className="p-10 bg-white shadow">
-              <div className="mb-4">
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium mb-1"
-                >
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  className="form-input w-full p-2 outline-none border"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium mb-1"
-                >
-                  Your Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  className="form-input w-full p-2 outline-none border"
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium mb-1"
-                >
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  className="form-textarea w-full outline-none border p-2"
-                  placeholder="Enter your message"
-                  required
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold mb-3">Contact Information</h2>
-            <p className="mb-3">
-              Feel free to reach out to us using the following contact
-              information:
-            </p>
-            <p className="mb-2">
-              <strong>Email:</strong>  business@veqtasquare.com
-            </p>
-            <p className="mb-2">
-              <strong>Phone:</strong>+233 24 768 5717
-            </p>
-            <p>
-              <strong>Address:</strong> Address 348 East Lake Rd. East Legon.
-              Accra - Ghana
-            </p>
-          </div>
-        </div>
+      <div className="container mx-auto p-6 py-36">
+      <Contact/>
+        
       </div>
     </div>
   );

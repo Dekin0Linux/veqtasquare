@@ -10,10 +10,12 @@ import Contact from './components/home/Contact'
 import Currency from './components/home/Currency'
 import Chart from './components/home/Chart'
 import CryptoChart from './components/home/Chart'
+import { Toaster } from 'sonner'
 
 function page() {
   return (
     <main>
+      <Toaster richColors  />
      <Currency/>
     <Hero/>
     {/* <Partners/> */}

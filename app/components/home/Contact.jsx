@@ -1,7 +1,10 @@
 "use client";
+import axios from "axios";
 import React, { useState } from "react";
+import { toast } from "sonner";
 
 function Contact() {
+    const [loading,setLoading] = useState(false)
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -14,11 +17,27 @@ function Contact() {
     setFormData({ ...formData, [id]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
+    setLoading(true)
     e.preventDefault();
-    console.log(formData);
+    try {
+      const response = await axios.post('/api/sendMail', formData);
+      console.log(response);
+      if (response.data.success) {
+        setLoading(false)
+        toast.success('Email sent successfully!')
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        alert('Failed to send email.');
+        toast.warning('Failed to send email.')
+        setLoading(false)
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      toast.error('Error sending email.')
+      setLoading(false)
+    }
   };
-
   return (
     <div className="my-10">
       <div className="container mx-auto md:flex p-5  items-center">
@@ -93,8 +112,12 @@ function Contact() {
               <button
                 type="submit"
                 className="w-full bg-green-600 p-3 text-white rounded-md"
+                disabled={loading}
               >
-                Send
+                {
+                    loading ? 'Sending...' : 'Send'
+                }
+                
               </button>
             </div>
           </form>

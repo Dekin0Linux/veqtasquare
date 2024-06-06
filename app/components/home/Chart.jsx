@@ -92,7 +92,7 @@ const CryptoChart = ({ coinId }) => {
             <Chart options={options} series={series} type="area" height={400} width={'100%'} />
         </div>
 
-        <div className=' bg-white p-10 shadow rounded-md'>
+        <div className=' bg-white md:p-10  p-2 shadow rounded-md'>
             <div>
                 <h4 className='text-xl font-semibold'>FLASH Live Price Summary</h4>
                 <p className='text-gray-500 pt-5'>As of Jun 5, 2024, the global cryptocurrency market cap is $-- with a 0.00% change in the last 24 hours. Today's price of FLASH is $0.00377629, with a 24-hour trading volume of $177.12. FLASH is +1.30% in the last 24 hours, with a circulating supply of -- FLASH coins and a maximum supply of 10.00M FLASH coins. FLASH ranks -- by market cap. It has a 24H high of $0.00378974 recorded on Jun 5, 2024, and its 24H low so far is $0.00372773, recorded on Jun 5, 2024.</p>
