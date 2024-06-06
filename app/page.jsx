@@ -16,7 +16,7 @@ function page() {
     <main>
      <Currency/>
     <Hero/>
-    <Partners/>
+    {/* <Partners/> */}
     <CryptoChart coinId={'ethereum'}/>
     <Getcard/>
     <Values/>

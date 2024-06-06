@@ -7,7 +7,7 @@ function Getcard() {
         <h1 className='md:text-5xl text-3xl text-center font-bold'>
           WHAT WE <span className="text-sky-500">OFFER</span>
         </h1>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam culpa eaque tenetur totam repellat quo deleniti excepturi officiis laborum quisquam.</small>
+        <small>Empowering Your Cryptocurrency Transactions with Excellence</small>
 
         <div className="grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-20 my-5">
           {/* card one */}

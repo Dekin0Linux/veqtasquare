@@ -68,7 +68,7 @@ function AboutPage() {
           </div>
         </div>
 
-        <div className="bg-gray-100 p-10 my-5">
+        <div className="bg-gray-100 md:p-10 p-3 my-5">
           <p className="text-center font-semibold text-xl text-blue-400">
             Difference between Crypto Tokens and Cryptocurrencies
           </p>
@@ -77,30 +77,30 @@ function AboutPage() {
             Blockchain technology, they are distinct in a few ways.
           </small>
 
-          <div>
+          <div className="overflow-auto text-xs md:text-base">
             <table class="table-auto w-full bg-white rounded-md">
               <thead>
                 <tr className="">
-                  <th className="p-3 border">Currency</th>
-                  <th className="p-3 border">Token</th>
+                  <th className="md:p-3 px-1 border">Currency</th>
+                  <th className="md:p-3 px-1 border">Token</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="p-3 border">Ripple,bitcoin,etherium </td>
-                  <td className="p-3 border">Brick-block,BCap,Polygon</td>
+                  <td className="md:p-3 px-1 border">Ripple,bitcoin,etherium </td>
+                  <td className="md:p-3 px-1 border">Brick-block,BCap,Polygon</td>
                 </tr>
                 <tr>
-                  <td className="p-3 border">Acts as digital currency</td>
-                  <td className="p-3 border">Act as digital project asset</td>
+                  <td className="md:p-3 px-1 border">Acts as digital currency</td>
+                  <td className="md:p-3 px-1 border">Act as digital project asset</td>
                 </tr>
                 <tr>
-                  <td className="p-3 border">Operates on it own Blockchain and can not be moved </td>
-                  <td className="p-3 border"> Is Blockchain agnostic</td>
+                  <td className="md:p-3 px-1 border">Operates on it own Blockchain and can not be moved </td>
+                  <td className="md:p-3 px-1 border"> Is Blockchain agnostic</td>
                 </tr>
                 <tr>
-                  <td className="p-3 border">Used as a source of digital payment  </td>
-                  <td className="p-3 border">Used as a source of digital payment and for agreements.</td>
+                  <td className="md:p-3 px-1 border">Used as a source of digital payment  </td>
+                  <td className="md:p-3 px-1 border">Used as a source of digital payment and for agreements.</td>
                 </tr>
               </tbody>
             </table>

@@ -34,7 +34,7 @@ function Hero() {
                         <p className='text-white leading-relaxed '>Send, Buy or Sell crypto vs Cash all over the world with Flash Transfer</p>
                     </div>
                 {/* <button className="my-5 bg-sky-600 px-5 py-3 rounded-full shadow-xl text-xs">Make A Purchase</button> */}
-                        <small className='text-base text-white'>VeqtaSquare, offers a reliable Exchange services for your cryptocurrency vs cash or buy cryptocurrency with cash form our approved partners. You can also send your cryptocurrency vs fiat worldwide using a Binance account or using your no-custodial wallet ( Flash wallet, Metamask, Binance wallet, Trust wallet ,etc)</small>
+                        <p className='md:text-base text-xs text-white truncate'>VeqtaSquare, offers a reliable Exchange services for your cryptocurrency vs cash or buy cryptocurrency with cash form our approved partners.</p>
                 </div>
             </div>
 

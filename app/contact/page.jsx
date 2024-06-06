@@ -91,13 +91,14 @@ function ContactPage() {
               information:
             </p>
             <p className="mb-2">
-              <strong>Email:</strong> info@example.com
+              <strong>Email:</strong>  business@veqtasquare.com
             </p>
             <p className="mb-2">
-              <strong>Phone:</strong> +1234567890
+              <strong>Phone:</strong>+233 24 768 5717
             </p>
             <p>
-              <strong>Address:</strong> 123 Main Street, City, Country
+              <strong>Address:</strong> Address 348 East Lake Rd. East Lego.
+              Accra - Ghana
             </p>
           </div>
         </div>

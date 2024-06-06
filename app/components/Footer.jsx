@@ -14,9 +14,10 @@ function Footer() {
           <p>Contact</p>
         </div>
         <div>
-          <p>Address: 123 Main Street, City, Country</p>
+          <p>Address 348 East Lake Rd. East Lego.
+          Accra - Ghana</p>
           <p>Email: business@veqtasquare.com</p>
-          <p>Phone: +1234567890</p>
+          <p>Phone:+233 24 768 5717</p>
         </div>
       </div>
       <p className="text-center text-white mt-6">© 2004 - 2024 Vetasquare. All rights reserved.</p>
