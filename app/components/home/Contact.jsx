@@ -72,6 +72,7 @@ function Contact() {
                   className="w-full outline-0 p-3 rounded-md"
                   value={formData.name}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="my-2">
@@ -83,6 +84,7 @@ function Contact() {
                   className="w-full outline-0 p-3 rounded-md"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="my-2 col-span-2">
@@ -94,6 +96,7 @@ function Contact() {
                   className="w-full outline-0 p-3 rounded-md"
                   value={formData.subject}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div className="my-2 col-span-2">
@@ -105,6 +108,7 @@ function Contact() {
                   placeholder="Enter your message"
                   value={formData.message}
                   onChange={handleChange}
+                  required
                 ></textarea>
               </div>
             </div>
