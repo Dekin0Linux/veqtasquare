@@ -11,8 +11,8 @@ export async function POST(req) {
     port: 465, // SSL port
     secure: true, // true for port 465, false for port 587
     auth: {
-      user: process.env.EMAIL_USER, // replace with your email
-      pass: process.env.EMAIL_PASS, // replace with your email password
+      user: 'business@veqtasquare.com', // replace with your email
+      pass: 'Deen@1986@', // replace with your email password
     },
     // Increase connection timeout
     connectionTimeout: 10000, // 10 seconds
@@ -20,9 +20,9 @@ export async function POST(req) {
 
   // Email options
   const mailOptions = {
-    from: process.env.EMAIL_USER, // sender address
+    from: 'business@veqtasquare.com', // sender address
     // from: `"${name}" <${email}>`, // sender address
-    to: process.env.EMAIL_USER, // list of receivers
+    to: 'business@veqtasquare.com', // list of receivers
     subject: subject, // Subject line
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // plain text body
   };
